@@ -63,7 +63,7 @@ public class HomeActivity extends Activity {
                         startActivity(SecurityPhoneActivity.class);
                         break;
                     case 2:
-                        startActivity(SecurityPhoneActivity.class);
+                        startActivity(SecurityPhoneActivity.class); 
                         break;
                     case 3:
                         break;
