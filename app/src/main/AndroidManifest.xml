@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
     <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
-
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
 
     <application
         android:name=".MyApplication"
@@ -76,6 +76,9 @@
 
         <activity android:name=".virus.VirusScanActivity" />
         <activity android:name=".virus.VirusScanSpeedActivity" />
+
+        <activity android:name=".cacheclean.CacheClearListActivity" />
+        <activity android:name=".cacheclean.CleanCacheActivity" />
 
     </application>
 

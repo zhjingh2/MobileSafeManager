@@ -24,6 +24,7 @@ import com.sysu.zhangjinghao.mobilesafemanager.antitheft.service.GPSLocationServ
 import com.sysu.zhangjinghao.mobilesafemanager.antitheft.utils.MD5Utils;
 import com.sysu.zhangjinghao.mobilesafemanager.appmanager.AppManagerActivity;
 import com.sysu.zhangjinghao.mobilesafemanager.blacklist.SecurityPhoneActivity;
+import com.sysu.zhangjinghao.mobilesafemanager.cacheclean.CacheClearListActivity;
 import com.sysu.zhangjinghao.mobilesafemanager.home.adapter.HomeAdapter;
 import com.sysu.zhangjinghao.mobilesafemanager.virus.VirusScanActivity;
 
@@ -71,6 +72,7 @@ public class HomeActivity extends Activity {
                         startActivity(VirusScanActivity.class);
                         break;
                     case 4:
+                        startActivity(CacheClearListActivity.class);
                         break;
                     case 5:
                         break;
