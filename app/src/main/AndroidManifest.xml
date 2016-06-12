@@ -73,6 +73,10 @@
         </receiver>
 
         <activity android:name=".appmanager.AppManagerActivity" />
+
+        <activity android:name=".virus.VirusScanActivity" />
+        <activity android:name=".virus.VirusScanSpeedActivity" />
+
     </application>
 
 </manifest>

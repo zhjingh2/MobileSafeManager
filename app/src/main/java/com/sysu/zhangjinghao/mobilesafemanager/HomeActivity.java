@@ -25,6 +25,7 @@ import com.sysu.zhangjinghao.mobilesafemanager.antitheft.utils.MD5Utils;
 import com.sysu.zhangjinghao.mobilesafemanager.appmanager.AppManagerActivity;
 import com.sysu.zhangjinghao.mobilesafemanager.blacklist.SecurityPhoneActivity;
 import com.sysu.zhangjinghao.mobilesafemanager.home.adapter.HomeAdapter;
+import com.sysu.zhangjinghao.mobilesafemanager.virus.VirusScanActivity;
 
 public class HomeActivity extends Activity {
     private GridView gvHome;
@@ -67,6 +68,7 @@ public class HomeActivity extends Activity {
                         startActivity(AppManagerActivity.class);
                         break;
                     case 3:
+                        startActivity(VirusScanActivity.class);
                         break;
                     case 4:
                         break;

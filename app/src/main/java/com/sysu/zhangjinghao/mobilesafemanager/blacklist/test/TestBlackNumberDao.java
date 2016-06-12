@@ -6,7 +6,13 @@ import android.util.Log;
 
 import com.sysu.zhangjinghao.mobilesafemanager.blacklist.db.dao.BlackNumberDao;
 import com.sysu.zhangjinghao.mobilesafemanager.blacklist.entity.BlackContactInfo;
+import com.sysu.zhangjinghao.mobilesafemanager.virus.VirusScanActivity;
+import com.sysu.zhangjinghao.mobilesafemanager.virus.dao.AntiVirusDao;
 
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
 import java.util.List;
 import java.util.Random;
 
@@ -74,4 +80,5 @@ public class TestBlackNumberDao extends AndroidTestCase {
         boolean isExist = dao.isNumberExist("13510000022");
         Log.i("TAG", "isExist:"+isExist);
     }
+
 }
